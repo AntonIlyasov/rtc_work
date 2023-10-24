@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ROS: Launch",
+            "type": "ros",
+            "request": "launch",
+            "target": "/home/raspberrypi/rtc_work/fingers_rx_tx_ws/src/fingers/launch/hand.launch",
+            "preLaunchTask": "make_debug",
+
+        }
+    ]
+}
